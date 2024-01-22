@@ -21,6 +21,7 @@
              extend: {
                colors: {
                  clifford: '#da373d',
+                 secondary: '#FF4240',
                }
              }
            }
@@ -32,7 +33,47 @@
          }
      </style>
 </head>
-<body>
+<body class="font-manrope">
+    <header class="lg:mx-32 mx-5">
+        <nav class="py-4 lg:py-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a class="text-secondary font-normal text-base" href="#">Home</a></li>
+                      <li><a class="text-[#424247] font-normal text-base" href="#">About</a></li>
+                      <li><a class="text-[#424247] font-normal text-base" href="#">Pages</a></li>
+                      <li><a class="text-[#424247] font-normal text-base" href="#">Blog</a></li>
+                      <li><a class="text-[#424247] font-normal text-base" href="#">Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey<span class="text-secondary">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-secondary font-normal" href="#">Home</a></li>
+                    <li><a class="text-[#424247] font-normal" href="#">About</a></li>
+                    <li><a class="text-[#424247] font-normal" href="#">Pages</a></li>
+                    <li><a class="text-[#424247] font-normal" href="#">Blog</a></li>
+                    <li><a class="text-[#424247] font-normal" href="#">Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                  <span><i class="fa-solid fa-magnifying-glass hidden md:block"></i></span>
+                  <a class="btn ml-4 text-white font-xl bg-secondary ">Get Ticket</a>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
     
 </body>
 </html>
