@@ -15,6 +15,8 @@
      <!--Tailwind CSS & DaisyUI-->
      <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
      <script src="https://cdn.tailwindcss.com"></script>
+     
+     <!--Scripts-->
      <script>
          tailwind.config = {
            theme: {
@@ -35,6 +37,7 @@
          }
      </style>
 </head>
+
 <body class="font-manrope">
     <header class="lg:mx-32 mx-5">
         <!--Navbar section-->
@@ -80,7 +83,7 @@
                 <a href="#slide2" class="btn btn-circle bg-[#131318] text-white">❯</a>
               </div>
               <div class="h-42 w-50 lg:w-[450px] lg:h-[180px] bg-black text-white p-8  lg:top-[340px] top-[240px] rounded lg:absolute lg:right-8">
-                <h3 class="text-2xl font-extrabold mb-4">2023-24 Schedule Available</h3>
+                <h3 class="text-2xl font-extrabold mb-4">2023-24 Schedule Available here!!</h3>
                 <p>We are hosting 82 events across 21 cities and we hope to see your team this year!</p>
               </div>
             </div> 
@@ -114,7 +117,7 @@
     </header>
     <main class="lg:mx-32 mx-5">
         <!--Progress Section-->
-        <section class="my-20">
+        <section class="lg:my-20 my-8">
             <!--Progress Heading-->
             <div class="border-y-2 border-dashed">
                 <h2 class="flex justify-center py-7 text-[#131318] font-extrabold text-2xl lg:text-4xl">
@@ -197,7 +200,7 @@
             <!--Program Card-->
             <div class="grid gap-8 grid-cols-1 md:grid-cols-2 flex-1 mt-12">
                 <!--Card-1 -->
-                <div class="card  w-full bg-base-100 shadow-xl image-full bg-cover bg-center bg-blend-darken" style="background-image: url('./images/card-1.png')">
+                <div class="card w-full bg-base-100 shadow-xl image-full bg-cover bg-center bg-blend-darken" style="background-image: url('./images/card-1.png')">
                     <div class="card-body">
                       <h2 class="card-title text-white text-xl lg:text-3xl font-extrabold pt-6 lg:pt-24">Junior Program</h2>
                       <p class="text-white pb-6">
@@ -513,14 +516,14 @@
                             <div class="label">
                                 <span class="label-text text-xl font-bold text-heading">Your Name</span>
                             </div>
-                            <input type="text" placeholder="Enter your full name" class="input input-bordered w-full bg-[#0d0d1208]" />
+                            <input type="text" placeholder="Enter your full name" class="input  w-full bg-[#0d0d1208]" />
                         </label>
                         
                         <label class="form-control w-full">
                             <div class="label">
                                 <span class="label-text text-xl font-bold text-heading">Your Email</span>
                             </div>
-                            <input type="text" placeholder="Enter your email" class="input input-bordered w-full bg-[#0d0d1208]" />
+                            <input type="text" placeholder="Enter your email" class="input w-full bg-[#0d0d1208]" />
                         </label>
                     </div>
                     <div class="sm:flex flex-col lg:flex-row gap-6 mt-6">
@@ -528,14 +531,14 @@
                             <div class="label">
                                 <span class="label-text text-xl font-bold text-heading">Subject</span>
                             </div>
-                            <input type="text" placeholder="Enter your Subject" class="input input-bordered w-full bg-[#0d0d1208]" />
+                            <input type="text" placeholder="Enter your Subject" class="input w-full bg-[#0d0d1208]" />
                         </label>
                         
                         <label class="form-control w-full">
                             <div class="label">
                                 <span class="label-text text-xl font-bold text-heading">Phone Number</span>
                             </div>
-                            <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full bg-[#0d0d1208]" />
+                            <input type="text" placeholder="Enter your phone number" class="input w-full bg-[#0d0d1208]" />
                         </label>
                     </div>
 
@@ -543,7 +546,7 @@
                         <div class="label">
                             <span class="label-text text-xl font-bold text-heading">Message</span>
                         </div>
-                        <textarea placeholder="Write your message" class="textarea textarea-bordered textarea-lg w-full h-[370px] bg-[#0d0d1208]" ></textarea>
+                        <textarea placeholder="Write your message" class="textarea textarea-lg w-full h-[370px] bg-[#0d0d1208]" ></textarea>
                     </div>
                     <div class="mt-6 py-4">
                         <button class="btn w-full text-xl font-bold text-white bg-secondary ">Send Message</button>
@@ -562,6 +565,7 @@
         </section>
     </main>
 
+    <!--Footer Section-->
     <footer class="footer p-10 bg-heading text-[#FFFFFF99] lg:px-32 px-5 flex justify-between items-center flex-col lg:flex-row">
         <div class="items-center">
             <h2 class="text-3xl font-extrabold text-white pb-4">Get In Touch</h2>
@@ -596,6 +600,6 @@
           <a class="link link-hover">Privacy policy</a>
           <a class="link link-hover">Cookie policy</a>
         </nav>
-      </footer>
+    </footer>
 </body>
 </html>
